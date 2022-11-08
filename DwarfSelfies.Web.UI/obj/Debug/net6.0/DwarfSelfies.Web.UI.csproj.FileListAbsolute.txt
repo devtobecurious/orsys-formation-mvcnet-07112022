@@ -29,3 +29,7 @@ D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelf
 D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\obj\Debug\net6.0\DwarfSelfies.Web.UI.csproj.CopyComplete
 D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutSelfies.cshtml.rz.scp.css
 D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutSelfiesIndex.cshtml.rz.scp.css
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
