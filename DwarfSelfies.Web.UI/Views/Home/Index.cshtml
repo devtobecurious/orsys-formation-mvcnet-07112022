@@ -1,0 +1,28 @@
+﻿@using DwarfSelfies.Core.Domain
+@model List<Selfie>
+
+@{
+    ViewData["Title"] = "Home Page";    
+
+    //this.Model
+    var listSelfies = this.ViewBag.SelfieList as List<DwarfSelfies.Core.Domain.Selfie>;
+
+    // A ne pas faire, c'est le controller qui en a la responsabilité !!!
+    //var listSelfies = new List<DwarfSelfies.Core.Domain.Selfie>()
+    //{
+    //    new DwarfSelfies.Core.Domain.Selfie(),
+    //    new DwarfSelfies.Core.Domain.Selfie()
+    //};
+}
+
+<h1>Dwarf Selfies</h1>
+
+@{
+    string duCodeSupplémentaire = "";
+}
+
+@( "Test".ToLower() ) @* ==> Response.Write("Test")*@
+
+<div class="container">
+    <partial name="./Partials/_SelfieListPartial" model="Model" />
+</div>

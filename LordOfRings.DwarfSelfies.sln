@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DwarfSelfies.Web.UI", "DwarfSelfies.Web.UI\DwarfSelfies.Web.UI.csproj", "{A40170A2-8D67-4313-8B4D-5C88B7C022CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{D5B5411B-384D-4C71-B561-EA25DFE759A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{1A27031B-D0D4-48EB-A151-7E56A5400500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DwarfSelfies.Core.Domain", "DwarfSelfies.Core.Domain\DwarfSelfies.Core.Domain.csproj", "{FD5A3321-5206-400A-A8C3-98FE21AEEE02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40170A2-8D67-4313-8B4D-5C88B7C022CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40170A2-8D67-4313-8B4D-5C88B7C022CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40170A2-8D67-4313-8B4D-5C88B7C022CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40170A2-8D67-4313-8B4D-5C88B7C022CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B5411B-384D-4C71-B561-EA25DFE759A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B5411B-384D-4C71-B561-EA25DFE759A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B5411B-384D-4C71-B561-EA25DFE759A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B5411B-384D-4C71-B561-EA25DFE759A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5A3321-5206-400A-A8C3-98FE21AEEE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5A3321-5206-400A-A8C3-98FE21AEEE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5A3321-5206-400A-A8C3-98FE21AEEE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5A3321-5206-400A-A8C3-98FE21AEEE02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD5A3321-5206-400A-A8C3-98FE21AEEE02} = {1A27031B-D0D4-48EB-A151-7E56A5400500}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFA80433-5FE5-4CB6-9ED2-3AFF394CA08B}
+	EndGlobalSection
+EndGlobal

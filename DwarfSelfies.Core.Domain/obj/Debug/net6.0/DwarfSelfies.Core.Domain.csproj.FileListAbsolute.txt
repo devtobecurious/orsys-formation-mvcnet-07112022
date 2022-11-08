@@ -1,0 +1,12 @@
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\bin\Debug\net6.0\DwarfSelfies.Core.Domain.deps.json
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\bin\Debug\net6.0\DwarfSelfies.Core.Domain.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\bin\Debug\net6.0\DwarfSelfies.Core.Domain.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.AssemblyInfo.cs
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\refint\DwarfSelfies.Core.Domain.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\DwarfSelfies.Core.Domain.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\obj\Debug\net6.0\ref\DwarfSelfies.Core.Domain.dll

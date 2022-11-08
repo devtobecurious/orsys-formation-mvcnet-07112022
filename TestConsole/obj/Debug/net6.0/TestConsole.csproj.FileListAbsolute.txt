@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\bin\Debug\net6.0\TestConsole.exe
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\bin\Debug\net6.0\TestConsole.deps.json
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\bin\Debug\net6.0\TestConsole.runtimeconfig.json
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\bin\Debug\net6.0\TestConsole.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\bin\Debug\net6.0\TestConsole.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.AssemblyInfo.cs
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\refint\TestConsole.dll
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\TestConsole.genruntimeconfig.cache
+D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\TestConsole\obj\Debug\net6.0\ref\TestConsole.dll

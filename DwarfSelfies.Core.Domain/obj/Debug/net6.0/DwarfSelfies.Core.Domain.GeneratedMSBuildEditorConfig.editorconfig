@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DwarfSelfies.Core.Domain
+build_property.ProjectDir = D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Core.Domain\

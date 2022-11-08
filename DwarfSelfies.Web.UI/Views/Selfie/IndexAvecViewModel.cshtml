@@ -1,0 +1,46 @@
+﻿@model SelfieListViewModel
+
+@{
+    //var locationsItems = this.Model.LocationList?
+    //                               .Select(location => new SelectListItem() { Selected = location.Id == 1, 
+    //                                                                          Value = location.Id.ToString(), 
+    //                                                                          Text = location.Libelle });
+}
+
+@if(Model.IsMobile)
+{
+    
+}
+
+<div class="row">
+    @*<div class="input-field col s12">
+        Location : 
+    </div>*@
+    <div class="input-field col s12">
+        @*@Html.DropDownList("Selfies", locationsItems)*@
+        @Html.DropDownList("Selfies", Model.LocationItems, new {  })
+
+        <select css="" name="Selfies" asp-items="Model.LocationItems"></select>
+
+        <select name="Selfies">
+        @foreach (var item in Model.LocationList)
+        {
+            <option value="@item.Id">@item.Libelle</option>
+        }
+        </select>
+        <label>Location</label>
+    </div>
+</div>
+
+<partial name="./Partials/_SelfieListPartial" model="Model.SelfieList" />
+
+
+@section Scripts
+{
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('select');
+             var instances = M.FormSelect.init(elems, {});
+          });
+    </script>
+}

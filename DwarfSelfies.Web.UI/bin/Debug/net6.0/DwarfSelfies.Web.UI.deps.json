@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DwarfSelfies.Web.UI/1.0.0": {
+        "dependencies": {
+          "DwarfSelfies.Core.Domain": "1.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.15.1"
+        },
+        "runtime": {
+          "DwarfSelfies.Web.UI.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {},
+      "DwarfSelfies.Core.Domain/1.0.0": {
+        "runtime": {
+          "DwarfSelfies.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DwarfSelfies.Web.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+    },
+    "DwarfSelfies.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

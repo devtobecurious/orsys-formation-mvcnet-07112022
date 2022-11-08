@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DwarfSelfies.Web.UI
+build_property.RootNamespace = DwarfSelfies.Web.UI
+build_property.ProjectDir = D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Works\Formations\En cours\Mistra\Orsys\asp.net\07112022\LordOfRings.DwarfSelfies\DwarfSelfies.Web.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Selfie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZmllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Selfie/IndexAvecViewModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZmllXEluZGV4QXZlY1ZpZXdNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Selfie/Selfie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZmllXFNlbGZpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Selfie/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZmllXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/Partials/_MenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9NZW51UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/Partials/_SelfieListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9TZWxmaWVMaXN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-im4vkjijem
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/_LayoutSelfies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTZWxmaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-q83q54tdqt
+
+[D:/Works/Formations/En cours/Mistra/Orsys/asp.net/07112022/LordOfRings.DwarfSelfies/DwarfSelfies.Web.UI/Views/Shared/_LayoutSelfiesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTZWxmaWVzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bnx2707gqy

@@ -1,0 +1,27 @@
+﻿@using System.Diagnostics
+
+@model List<Selfie>
+
+@{
+    Debug.WriteLine(this.Layout);
+    this.ViewData["Title"] = "Les selfies";
+    this.Layout = this.ViewBag.IsMobileDevice ? "_LayoutSelfiesIndex" : "MobileLayout";
+}
+
+<h1>Les selfies</h1>
+
+<div class="container">
+    @if(this.Model.Count <= 0)
+    {
+        <i>Aucun Selfie disponible</i>
+    }
+
+    @foreach (var item in Model)
+    {
+        string maVariable = "";
+
+        <div class="card selfie">            
+            <h2>@(item.Titre.ToUpper())</h2>
+        </div>    
+    }
+</div>
