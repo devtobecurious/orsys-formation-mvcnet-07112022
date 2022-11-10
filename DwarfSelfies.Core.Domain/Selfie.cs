@@ -18,6 +18,8 @@
         #endregion
 
         #region Properties
+        public decimal Id { get; set; }
+
         /// <summary>
         /// Titre du selfie
         /// </summary>

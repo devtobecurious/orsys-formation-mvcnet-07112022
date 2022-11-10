@@ -10,6 +10,11 @@
 </head>
 <body>
     <partial name="./Partials/_MenuPartial" />
+
+    <environment exclude="Production">
+        <b><i>ATTENTION, ENV DE TEST/DEV !!!</i></b>
+    </environment>
+
     <div class="container">
         @RenderBody()
     </div>

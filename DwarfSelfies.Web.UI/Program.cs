@@ -1,4 +1,6 @@
+using DwarfSelfies.Web.UI.Controllers;
 using DwarfSelfies.Web.UI.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 //Console.WriteLine("coucou");
@@ -48,17 +50,26 @@ using DwarfSelfies.Web.UI.Models;
 
 
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddDbContext<DefaultDbContext>(options =>
 {
-    
-});
+    string chaineDeConnexion = builder.Configuration.GetConnectionString("SelfieDb");
+
+    // builder.Configuration["MaConfigAMoi:Test"]
+
+    options.UseSqlServer(chaineDeConnexion, optionsPourSqlServer =>
+    {
+        optionsPourSqlServer.CommandTimeout(2000);
+    });
+}, ServiceLifetime.Scoped);
+
+builder.Services.AddSingleton<DwarfSelfies.Core.Interfaces.ILogger,
+                              DwarfSelfies.Core.Infrastructures.Logging.ApiLogger>();
 
 var app = builder.Build();
 //-------------------------
@@ -66,6 +77,9 @@ var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
+
+// app.Environment.EnvironmentName == "Test";
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

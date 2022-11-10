@@ -8,9 +8,13 @@ namespace DwarfSelfies.Web.UI.Controllers
 {
     public class SelfieController : Controller
     {
-        public SelfieController(): base()
-        {
+        private readonly DefaultDbContext context;
+        private readonly DwarfSelfies.Core.Interfaces.ILogger logger;
 
+        public SelfieController(DefaultDbContext context, DwarfSelfies.Core.Interfaces.ILogger logger): base()
+        {
+            this.context = context;
+            this.logger = logger;
         }
 
         public override void OnActionExecuting(ActionExecutingContext context)
@@ -20,20 +24,41 @@ namespace DwarfSelfies.Web.UI.Controllers
 
         public IActionResult Index() // Action = par défaut au nom de ma vue.cshtml
         {
-            List<Selfie> selfies = new()
-            {
-                new() { Titre = "T'as vu ma tetre" },
-                new() { Titre = "Sauron n'a qu'à bien se tenir !" },
-                new() { Titre = "Sauron n'a qu'à bien se tenir !" },
-                new() { Titre = "Sauron n'a qu'à bien se tenir !" },
-                new() { Titre = "Sauron n'a qu'à bien se tenir !" }
-            };
+            this.logger.Log("Je passe par index");
 
-            List<Location> locations = new()
-            {
-                new (1, "Mordor"),
-                new (1, "Moria"),
-            };
+            //List<Selfie> selfies = new()
+            //{
+            //    new() { Titre = "T'as vu ma tetre" },
+            //    new() { Titre = "Sauron n'a qu'à bien se tenir !" },
+            //    new() { Titre = "Sauron n'a qu'à bien se tenir !" },
+            //    new() { Titre = "Sauron n'a qu'à bien se tenir !" },
+            //    new() { Titre = "Sauron n'a qu'à bien se tenir !" }
+            //};
+
+            // Le ToList (puisque lié à mon DbSet) va ouvrir la connection, faire la requete, itérer sur la requete
+            // et retourner la list des instances de Selfies, renseignées par les data venant de sql
+            List<Selfie> selfies = this.context.Selfies.ToList(); // A ne pas reproduire en prod :D
+
+
+            //foreach (var item in this.context.Selfies.Where(item => item.Id < 20))
+            //{
+
+            //}
+
+            var query = from item in this.context.Selfies
+                        where item.Id < 20
+                        select item;
+
+            var prepareFiltreQuery = query.Take(10);
+
+
+            // Ici on exécute la requete autogénérée (avec le .ToList)
+            selfies = prepareFiltreQuery.ToList();
+
+            // var lePremierSelfie = prepareFiltreQuery.First(); // Ici c'est le first qui exécute la requête
+
+
+            List <Location> locations = this.context.Locations.ToList();
 
             this.ViewBag.IsMobileDevice = true;
 

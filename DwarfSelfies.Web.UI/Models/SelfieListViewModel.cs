@@ -8,6 +8,14 @@ namespace DwarfSelfies.Web.UI.Models
         #region Constructors
         public SelfieListViewModel()
         {
+
+            var list = new List<int>()
+            {
+                1, 2, 3, 4, 5, 6, 7
+            };
+
+            var result = list.Select(item => item.ToString());
+
             // this.SelfieList = new List<Selfie>();
         }
         #endregion

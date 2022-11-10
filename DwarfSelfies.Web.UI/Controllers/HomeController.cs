@@ -13,6 +13,8 @@ namespace DwarfSelfies.Web.UI.Controllers
         {
             _logger = logger;
             Debug.WriteLine("Hello ");
+
+            // this._logger.LogCritical("Une info au passage");
         }
 
         public IActionResult Index()

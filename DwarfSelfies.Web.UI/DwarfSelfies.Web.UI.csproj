@@ -10,11 +10,14 @@
 
   <ItemGroup>
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DwarfSelfies.Core.Domain\DwarfSelfies.Core.Domain.csproj" />
+    <ProjectReference Include="..\DwarfSelfies.Core.Infrastructures\DwarfSelfies.Core.Infrastructures.csproj" />
+    <ProjectReference Include="..\DwarfSelfies.Core.Interfaces\DwarfSelfies.Core.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

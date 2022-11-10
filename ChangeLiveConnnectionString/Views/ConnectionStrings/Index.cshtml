@@ -1,0 +1,15 @@
+﻿@model List<Key>
+
+@{
+    var items = this.Model.Select(item => new SelectListItem() { Selected = item.Value == this.ViewBag.SelectedKey, Value = item.Value, Text = item.Value });
+}
+
+<div>Choisissez la clef de connection</div>
+
+<form method="post">
+<select asp-items="items" name="key"></select>
+<button>Valider</button>
+</form>
+
+<br />
+<a asp-action="Index" asp-controller="Test">Lien pour tester</a>

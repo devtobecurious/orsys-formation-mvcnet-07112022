@@ -65,14 +65,79 @@
         }
       }
     },
-    "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj": {
+    "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\DwarfSelfies.Core.Infrastructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj",
-        "projectName": "DwarfSelfies.Web.UI",
-        "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj",
+        "projectUniqueName": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\DwarfSelfies.Core.Infrastructures.csproj",
+        "projectName": "DwarfSelfies.Core.Infrastructures",
+        "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\DwarfSelfies.Core.Infrastructures.csproj",
         "packagesPath": "C:\\Users\\evan\\.nuget\\packages\\",
-        "outputPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\obj\\",
+        "outputPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\evan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj": {
+                "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj",
+        "projectName": "DwarfSelfies.Core.Interfaces",
+        "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\evan\\.nuget\\packages\\",
+        "outputPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -111,8 +176,83 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj",
+        "projectName": "DwarfSelfies.Web.UI",
+        "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\DwarfSelfies.Web.UI.csproj",
+        "packagesPath": "C:\\Users\\evan\\.nuget\\packages\\",
+        "outputPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Web.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\evan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Domain\\DwarfSelfies.Core.Domain.csproj": {
+                "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Domain\\DwarfSelfies.Core.Domain.csproj"
+              },
+              "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\DwarfSelfies.Core.Infrastructures.csproj": {
+                "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Infrastructures\\DwarfSelfies.Core.Infrastructures.csproj"
+              },
+              "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj": {
+                "projectPath": "D:\\Works\\Formations\\En cours\\Mistra\\Orsys\\asp.net\\07112022\\LordOfRings.DwarfSelfies\\DwarfSelfies.Core.Interfaces\\DwarfSelfies.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.11, )"
             },
