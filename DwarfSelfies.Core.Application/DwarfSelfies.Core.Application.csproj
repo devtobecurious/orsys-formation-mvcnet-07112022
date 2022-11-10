@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DwarfSelfies.Core.Domain\DwarfSelfies.Core.Domain.csproj" />
+    <ProjectReference Include="..\DwarfSelfies.Core.Interfaces\DwarfSelfies.Core.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

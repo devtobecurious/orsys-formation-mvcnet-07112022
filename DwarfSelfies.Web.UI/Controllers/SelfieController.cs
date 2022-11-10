@@ -1,4 +1,5 @@
 ﻿using DwarfSelfies.Core.Domain;
+using DwarfSelfies.Core.Interfaces.Repositories;
 using DwarfSelfies.Web.UI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -8,13 +9,14 @@ namespace DwarfSelfies.Web.UI.Controllers
 {
     public class SelfieController : Controller
     {
-        private readonly DefaultDbContext context;
         private readonly DwarfSelfies.Core.Interfaces.ILogger logger;
+        private readonly ISelfieRepository repository;
 
-        public SelfieController(DefaultDbContext context, DwarfSelfies.Core.Interfaces.ILogger logger): base()
+        public SelfieController(DwarfSelfies.Core.Interfaces.ILogger logger,
+                                ISelfieRepository repository) : base()
         {
-            this.context = context;
             this.logger = logger;
+            this.repository = repository;
         }
 
         public override void OnActionExecuting(ActionExecutingContext context)
@@ -37,7 +39,7 @@ namespace DwarfSelfies.Web.UI.Controllers
 
             // Le ToList (puisque lié à mon DbSet) va ouvrir la connection, faire la requete, itérer sur la requete
             // et retourner la list des instances de Selfies, renseignées par les data venant de sql
-            List<Selfie> selfies = this.context.Selfies.ToList(); // A ne pas reproduire en prod :D
+            //List<Selfie> selfies = this.context.Selfies.ToList(); // A ne pas reproduire en prod :D
 
 
             //foreach (var item in this.context.Selfies.Where(item => item.Id < 20))
@@ -45,20 +47,20 @@ namespace DwarfSelfies.Web.UI.Controllers
 
             //}
 
-            var query = from item in this.context.Selfies
-                        where item.Id < 20
-                        select item;
+            //var query = from item in this.context.Selfies
+            //            where item.Id < 20
+            //            select item;
 
-            var prepareFiltreQuery = query.Take(10);
+            // var prepareFiltreQuery = query.Take(10);
 
 
             // Ici on exécute la requete autogénérée (avec le .ToList)
-            selfies = prepareFiltreQuery.ToList();
+            // selfies = prepareFiltreQuery.ToList();
 
             // var lePremierSelfie = prepareFiltreQuery.First(); // Ici c'est le first qui exécute la requête
 
 
-            List <Location> locations = this.context.Locations.ToList();
+            List<Location> locations = new List<Location>(); // this.context.Locations.ToList();
 
             this.ViewBag.IsMobileDevice = true;
 
@@ -71,6 +73,7 @@ namespace DwarfSelfies.Web.UI.Controllers
 
             //}
 
+            List<Selfie> selfies = this.repository.GetAll();
 
             // Car nous utilisons le model de type ViewModel
             return View("IndexAvecViewModel", new SelfieListViewModel() { SelfieList = selfies, IsMobile = true, LocationList = locations });

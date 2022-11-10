@@ -8,6 +8,6 @@ namespace AllerAuTravail
 {
     internal interface IMeteo
     {
-
+        Temps Fournir();
     }
 }

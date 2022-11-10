@@ -1,5 +1,7 @@
+using DwarfSelfies.Core.Infrastructures.Data;
 using DwarfSelfies.Web.UI.Controllers;
 using DwarfSelfies.Web.UI.Models;
+using DwarfSelfies.Web.UI.Tools.Injections;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -55,7 +57,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
 builder.Services.AddDbContext<DefaultDbContext>(options =>
 {
     string chaineDeConnexion = builder.Configuration.GetConnectionString("SelfieDb");
@@ -68,8 +69,7 @@ builder.Services.AddDbContext<DefaultDbContext>(options =>
     });
 }, ServiceLifetime.Scoped);
 
-builder.Services.AddSingleton<DwarfSelfies.Core.Interfaces.ILogger,
-                              DwarfSelfies.Core.Infrastructures.Logging.ApiLogger>();
+builder.Services.DefineCustomInjections();
 
 var app = builder.Build();
 //-------------------------
