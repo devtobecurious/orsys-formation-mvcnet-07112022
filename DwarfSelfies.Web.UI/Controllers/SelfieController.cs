@@ -24,7 +24,7 @@ namespace DwarfSelfies.Web.UI.Controllers
             base.OnActionExecuting(context);
         }
 
-        public IActionResult Index() // Action = par défaut au nom de ma vue.cshtml
+        public IActionResult Index(int id, int id2) // Action = par défaut au nom de ma vue.cshtml
         {
             this.logger.Log("Je passe par index");
 

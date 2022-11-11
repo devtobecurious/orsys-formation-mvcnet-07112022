@@ -3,6 +3,9 @@ using DwarfSelfies.Web.UI.Controllers;
 using DwarfSelfies.Web.UI.Models;
 using DwarfSelfies.Web.UI.Tools.Injections;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using DwarfSelfies.Web.UI.Data;
+using DwarfSelfies.Web.UI.Areas.Identity.Data;
 
 
 //Console.WriteLine("coucou");
@@ -69,6 +72,9 @@ builder.Services.AddDbContext<DefaultDbContext>(options =>
     });
 }, ServiceLifetime.Scoped);
 
+builder.Services.AddDefaultIdentity<DwarfSelfiesWebUIUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<DwarfSelfiesWebUIContext>();
+
 builder.Services.DefineCustomInjections();
 
 var app = builder.Build();
@@ -89,13 +95,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
+app.UseAuthentication();;
 app.UseAuthorization();
+app.DefineCustomRoutes();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Selfie}/{action=Index}/{id?}");
 
 app.Run();
